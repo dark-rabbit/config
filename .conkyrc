@@ -1,0 +1,24 @@
+# parametres principaux
+update_interval 1
+double_buffer yes
+use_spacer no
+
+# font
+use_xft yes
+xftfont Ubuntu:bold:size=10
+
+# color
+default_color white
+default_shade_color black
+draw_shades yes
+
+# Desktop parameters
+own_window yes
+own_window_type panel
+own_window_transparent yes
+background no
+gap_y 2
+gap_x 2
+
+TEXT
+${time %A %d %B, %H:%M} | Battery: ${battery} | CPU: ${cpu cpu0}% ${cpu cpu1}% ${cpu cpu2}% ${cpu cpu3}% | Temp: ${hwmon 0 temp 1}°C | RAM: ${memperc}%

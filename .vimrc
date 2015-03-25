@@ -52,7 +52,6 @@ Plugin 'othree/html5.vim'
 
 " Colorschemes
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'lsdr/monokai'
 Plugin 'dsolstad/vim-wombat256i'
 
 call vundle#end()
@@ -61,9 +60,7 @@ filetype plugin indent on
 " colors
 syntax enable
 if has("gui_running")
-	set background=light
 	colorscheme solarized
-	"colorscheme monokai
 else
 	set background=dark
 	set t_Co=256
