@@ -11,6 +11,10 @@ xftfont Ubuntu:bold:size=10
 default_color white
 default_shade_color black
 draw_shades yes
+color0 A1CD4C
+color1 5C008C
+color2 D64937
+color3 A01F62 
 
 # Desktop parameters
 own_window yes
@@ -21,4 +25,4 @@ gap_y 2
 gap_x 2
 
 TEXT
-${time %H:%M | %d/%m/%y} | Battery: ${battery} | CPU: ${cpu cpu0}% ${cpu cpu1}% ${cpu cpu2}% ${cpu cpu3}% | Temp: ${hwmon 0 temp 1}°C | RAM: ${memperc}%
+${time %d/%m/%y, %H:%M} $color0 Battery: ${battery} $color1 CPU: ${cpu cpu0}% ${cpu cpu1}% ${cpu cpu2}% ${cpu cpu3}% $color2 Temp: ${hwmon 0 temp 1}°C $color3 RAM: ${memperc}%
