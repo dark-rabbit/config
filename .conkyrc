@@ -21,4 +21,4 @@ gap_y 2
 gap_x 2
 
 TEXT
-${time %A %d %B, %H:%M} | Battery: ${battery} | CPU: ${cpu cpu0}% ${cpu cpu1}% ${cpu cpu2}% ${cpu cpu3}% | Temp: ${hwmon 0 temp 1}°C | RAM: ${memperc}%
+${time %H:%M | %d/%m/%y} | Battery: ${battery} | CPU: ${cpu cpu0}% ${cpu cpu1}% ${cpu cpu2}% ${cpu cpu3}% | Temp: ${hwmon 0 temp 1}°C | RAM: ${memperc}%
