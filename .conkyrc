@@ -23,10 +23,10 @@ own_window_transparent yes
 background no
 
 # a changer si dual screen
-#gap_y 2
-gap_y 258
-# gap_x 2
-gap_x 1286
+gap_y 2
+# gap_y 258
+gap_x 2
+# gap_x 1286
 
 TEXT
 ${time %d/%m/%y, %H:%M} $color0 Battery ${battery} $color1 CPU ${cpu cpu0}% ${cpu cpu1}% ${cpu cpu2}% ${cpu cpu3}% $color2 Temp ${hwmon 0 temp 1}°C $color3 RAM ${memperc}%
