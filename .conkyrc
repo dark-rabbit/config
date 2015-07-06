@@ -1,20 +1,23 @@
 # parametres principaux
 update_interval 1
 double_buffer yes
-use_spacer no
+use_spacer none
 
 # font
 use_xft yes
-xftfont Ubuntu:bold:size=10
+xftfont Sans:bold:size=6
 
 # color
 default_color white
-default_shade_color black
+# default_shade_color black
 draw_shades yes
-color0 D51189 
-color1 006CB7
-color2 D64937
-color3 A1CD4C
+
+# solarized
+color0 2aa198 
+color1 268bd2
+color2 6c71c4
+color3 d33682
+color4 93a1a1
 
 # Desktop parameters
 own_window yes
@@ -23,10 +26,19 @@ own_window_transparent yes
 background no
 
 # a changer si dual screen
-gap_y 2
-# gap_y 258
+
+# single monitor or no-left additional monitors
 gap_x 2
-# gap_x 1286
+gap_y 2
+
+# left 1280*1024 monitor
+# gap_x 1282
+# gap_y 258
+
+# left 1920*1080 monitor
+# gap_x 1922
+# gap_y 312
+
 
 TEXT
-${time %d/%m/%y, %H:%M} $color0 Battery ${battery} $color1 CPU ${cpu cpu0}% ${cpu cpu1}% ${cpu cpu2}% ${cpu cpu3}% $color2 Temp ${hwmon 0 temp 1}°C $color3 RAM ${memperc}%
+$color0 ${time %d/%m/%y} $color1 ${time %H:%M} $color4 ${exec xtitle}

@@ -49,10 +49,15 @@ Plugin 'mattn/emmet-vim'
 
 " HTML5 syntax
 Plugin 'othree/html5.vim'
+Plugin 'pangloss/vim-javascript'
+
+" JS hint
+Plugin 'Shutnik/jshint2.vim'
 
 " Colorschemes
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'dsolstad/vim-wombat256i'
+Plugin 'chriskempson/vim-tomorrow-theme'
 
 call vundle#end()
 filetype plugin indent on
@@ -60,12 +65,14 @@ filetype plugin indent on
 " colors
 syntax enable
 if has("gui_running")
-	colorscheme solarized
+	set background=light
 else
 	set background=dark
-	set t_Co=256
-	colorscheme wombat256i
+	" set t_Co=256
+	" colorscheme wombat256i
 endif
+" colorscheme Tomorrow-Night-Eighties
+colorscheme solarized
 
 " vim airline config
 let g:airline_powerline_fonts=1
@@ -114,4 +121,4 @@ set noeb vb t_vb=
 set guicursor+=a:blinkon0
 
 " font
-set guifont=Inconsolata\ for\ powerline\ 13
+set guifont=Inconsolata\ for\ powerline\ 11

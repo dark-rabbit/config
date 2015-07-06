@@ -1,34 +1,46 @@
 #! /bin/sh
 
-bspc config border_width 2
+# panel
+# /home/lapin/.config/bspwm/panel &
+
+# dimensions
+
+bspc config border_width 1
+
 bspc config window_gap 6
 
-bspc config bottom_padding 16
+bspc config -m eDP1 bottom_padding 16
 
 bspc config split_ratio 0.52
+
+# normal parameters
 bspc config borderless_monocle true
 bspc config gapless_monocle true
 bspc config focus_by_distance true
 
-bspc monitor eDP1	-d I II III IV V
-bspc monitor DP1	-d VII VIII IX X
+# monitors
+bspc monitor eDP1	-d I II III IV V #VI VII VIII IX X
+# bspc monitor DP1	-d VI VII VIII IX X
+bspc monitor HDMI1	-d VI VII VIII IX X
 
-# bspc rule -a Gimp desktop=^8 follow=on floating=on
-# bspc rule -a Chromium desktop=^2
-# bspc rule -a mplayer2 floating=on
-# bspc rule -a Kupfer.py focus=on
-# bspc rule -a Screenkey manage=off
+# focus du primary
+bspc monitor -f eDP1
 
+# app rules
+bspc rule -a qjackctl floating=on
+bspc rule -a eog floating=on
+
+# pointer
 bspc config focus_follows_pointer true
 
 # normal window	border
-bspc config normal_border_color "#006CB7"
+bspc config normal_border_color "#93a1a1"
 
 # focused window border
-bspc config focused_border_color "#D64937"
+bspc config focused_border_color "#268bd2"
 
 # active (focused on another screen)
-bspc config active_border_color "#D51189"
+bspc config active_border_color "#6c71c4"
 
 # presel
-bspc config presel_border_color "#A1CD4C"
+bspc config presel_border_color "#859900"
