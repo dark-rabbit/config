@@ -126,7 +126,7 @@ Xcursor.theme: Breeze
 ! URxvt*reverseVideo:                   boolean
 ! URxvt*loginShell:                     boolean
 ! URxvt*multiClickTime:                 number
-! URxvt*jumpScroll:                     boolean
+URxvt*jumpScroll:						false
 ! URxvt*skipScroll:                     boolean
 ! URxvt*pastableTabs:                   boolean
 ! URxvt*scrollstyle:                    mode
@@ -150,7 +150,7 @@ URxvt*scrollBar:						false
 ! URxvt*visualBell:                     boolean
 ! URxvt*mapAlert:                       boolean
 ! URxvt*meta8:                          boolean
-URxvt*mouseWheelScrollPage:				true
+URxvt*mouseWheelScrollPage:				false
 ! URxvt*tripleclickwords:               boolean
 ! URxvt*insecure:                       boolean
 URxvt*cursorUnderline:					true
