@@ -34,8 +34,7 @@ xrandr --output DP1 --auto --left-of eDP1
 xsetroot -cursor_name left_ptr &
 
 # wallpaper
-# feh --bg-tile /home/lapin/Data/Pictures/wallpapers/best/arch_eighties.png &
-feh --bg-fill /home/lapin/Data/Pictures/wallpapers/best/arch_eighties.png &
+feh --bg-fill /home/lapin/Wallpapers/arch_eighties.png &
 
 # system tray
 xfce4-power-manager &
