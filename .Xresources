@@ -189,7 +189,7 @@ URxvt*cursorBlink:						true
 ! URxvt*pointerColor2:                  color
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
-URxvt*font:								xft:Inconsolata for powerline:size=13
+URxvt*font:								xft:Inconsolata for powerline:size=11
 ! URxvt*boldFont:                       fontname
 ! URxvt*italicFont:                     fontname
 ! URxvt*boldItalicFont:                 fontname
