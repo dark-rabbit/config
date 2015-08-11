@@ -49,10 +49,13 @@ Plugin 'mattn/emmet-vim'
 
 " HTML5 syntax
 Plugin 'othree/html5.vim'
-Plugin 'pangloss/vim-javascript'
+Plugin 'jelera/vim-javascript-syntax'
 
 " JS hint
 Plugin 'Shutnik/jshint2.vim'
+
+" NodeJS
+Plugin 'moll/vim-node'
 
 " Colorschemes
 Plugin 'altercation/vim-colors-solarized'
@@ -71,8 +74,8 @@ else
 	" set t_Co=256
 	" colorscheme wombat256i
 endif
-" colorscheme Tomorrow-Night-Eighties
-colorscheme solarized
+colorscheme Tomorrow-Night-Eighties
+" colorscheme solarized
 
 " vim airline config
 let g:airline_powerline_fonts=1

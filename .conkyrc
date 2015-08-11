@@ -13,11 +13,9 @@ default_color white
 draw_shades yes
 
 # solarized
-color0 2aa198 
-color1 268bd2
-color2 6c71c4
-color3 d33682
-color4 93a1a1
+color0 6699cc 
+color1 66cccc
+color2 cccccc
 
 # Desktop parameters
 own_window yes
@@ -37,8 +35,8 @@ gap_y 2
 
 # left 1920*1080 monitor
 # gap_x 1922
-# gap_y 312
+# gap_y 314
 
 
 TEXT
-$color0 ${time %d/%m/%y} $color1 ${time %H:%M} $color4 ${exec xtitle}
+$color0 ${time %d/%m/%y} $color1 ${time %H:%M} $color2 ${exec xtitle}

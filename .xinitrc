@@ -27,15 +27,15 @@ synclient HorizScrollDelta=-111 &
 
 # ecrans (activer un 2eme ecran ici, xrandr pour le nom)
 xrandr --output eDP1 --auto --primary
-# xrandr --output DP1 --auto --left-of eDP1
+xrandr --output DP1 --auto --left-of eDP1
 # xrandr --output HDMI1 --auto --right-of eDP1
 
 # curseur
 xsetroot -cursor_name left_ptr &
 
 # wallpaper
-# feh --bg-tile /home/lapin/Data/Pictures/wallpapers/best/footer_lodyas.png &
-feh --bg-fill /home/lapin/Data/Pictures/wallpapers/best/arch.png &
+# feh --bg-tile /home/lapin/Data/Pictures/wallpapers/best/arch_eighties.png &
+feh --bg-fill /home/lapin/Data/Pictures/wallpapers/best/arch_eighties.png &
 
 # system tray
 xfce4-power-manager &
