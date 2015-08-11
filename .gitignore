@@ -1,0 +1,19 @@
+# Ignore everything
+*
+
+# But not
+!.gitignore
+!.Xresources
+!.bashrc
+!.config/bspwm/bspwmrc
+!.config/gtk-3.0/settings.ini
+!.config/sxhkd/sxhkdrc
+!.conkyrc
+!.gtkrc-2.0
+!.gtkrc.mine2
+!.gvimrc
+!.vimrc
+!.xinitrc
+!.zshrc
+
+# !*/
