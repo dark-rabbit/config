@@ -67,13 +67,7 @@ filetype plugin indent on
 
 " colors
 syntax enable
-if has("gui_running")
-	set background=light
-else
-	set background=dark
-	" set t_Co=256
-	" colorscheme wombat256i
-endif
+
 colorscheme Tomorrow-Night-Eighties
 " colorscheme solarized
 
