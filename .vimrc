@@ -38,9 +38,11 @@ Plugin 'terryma/vim-multiple-cursors'
 " commande :NERDTree
 Plugin 'scrooloose/nerdtree'
 
+" File fuzz
+Plugin 'kien/ctrlp.vim'
+
 " Bar de statut stylée
-" Danger : besoin d'installer une police pour éviter les charactere degueux
-Plugin 'bling/vim-airline'
+Plugin 'itchyny/lightline.vim'
 
 " Coder du HTML comme un gros bourrin
 " taper html:5 en insertion puis ctrl+y puis ,
@@ -58,9 +60,7 @@ Plugin 'Shutnik/jshint2.vim'
 Plugin 'moll/vim-node'
 
 " Colorschemes
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'dsolstad/vim-wombat256i'
-Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'chriskempson/base16-vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -68,20 +68,21 @@ filetype plugin indent on
 " colors
 syntax enable
 
-colorscheme Tomorrow-Night-Eighties
-" colorscheme solarized
+" colorscheme Tomorrow-Night-Eighties
+colorscheme base16-eighties
 
-" vim airline config
-let g:airline_powerline_fonts=1
-let g:airline#extensions#tabline#enabled=1
-let g:airline#extensions#tabline#buffer_nr_show=1
+" bar de statut light (pas de fonts speciales)
+let g:lightline = {
+\	'colorscheme': 'Tomorrow_Night_Eighties',
+\}
+set noshowmode
 
 " Syntastic config
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 
 " Interface
-set wildmenu
+set wildchar=<Tab> wildmenu wildmode=full
 set cursorline
 set number
 set ruler
@@ -118,4 +119,4 @@ set noeb vb t_vb=
 set guicursor+=a:blinkon0
 
 " font
-set guifont=Inconsolata\ for\ powerline\ 11
+set guifont=Ubuntu\ Mono\ 12
