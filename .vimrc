@@ -51,7 +51,8 @@ Plugin 'mattn/emmet-vim'
 
 " HTML5 syntax
 Plugin 'othree/html5.vim'
-Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
+Plugin 'othree/javascript-libraries-syntax.vim'
 
 " JS hint
 Plugin 'Shutnik/jshint2.vim'
@@ -76,6 +77,7 @@ let g:lightline = {
 \	'colorscheme': 'Tomorrow_Night_Eighties',
 \}
 set noshowmode
+let g:used_javascript_libs = 'angularjs,jquery'
 
 " Syntastic config
 let g:syntastic_cpp_compiler = 'clang++'
