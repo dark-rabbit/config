@@ -73,11 +73,8 @@ syntax enable
 colorscheme base16-eighties
 
 " bar de statut light (pas de fonts speciales)
-" let g:lightline = {
-" \	'colorscheme': 'Tomorrow_Night_Eighties',
-" \}
 let g:lightline = {
-\	'colorscheme': 'wombat',
+\	'colorscheme': 'Tomorrow_Night_Bright',
 \}
 set noshowmode
 let g:used_javascript_libs = 'angularjs,jquery'
