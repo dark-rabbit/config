@@ -22,6 +22,9 @@ Plugin 'scrooloose/syntastic'
 " ...
 Plugin 'tpope/vim-surround'
 
+" Auto Bracket
+Plugin 'Raimondi/delimitMate'
+
 " Commenter rapidement
 " ctrl + _ puis ctrl + _
 Plugin 'tomtom/tcomment_vim'
@@ -44,15 +47,21 @@ Plugin 'kien/ctrlp.vim'
 " Bar de statut stylée
 Plugin 'itchyny/lightline.vim'
 
-" Coder du HTML comme un gros bourrin
-" taper html:5 en insertion puis ctrl+y puis ,
+" Coder du HTM comme un gros bourrin
+" taper htm:5 en insertion puis ctrl+y puis ,
 " ctrl+y puis , pour la plupart des fonctionnalités
 Plugin 'mattn/emmet-vim'
 
-" HTML5 syntax
-Plugin 'othree/html5.vim'
+" HTML syntax
+Plugin 'othree/html.vim'
+
+" JS Syntax
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
+
+" TernJS (better autocompletion and refactoring)
+" Need NodeJS + npm, npm install in .vim/bundle/tern_for_vim
+Plugin 'marijnh/tern_for_vim'
 
 " JS hint
 Plugin 'Shutnik/jshint2.vim'
@@ -122,3 +131,7 @@ set guicursor+=a:blinkon0
 
 " font
 set guifont=Ubuntu\ Mono\ 12
+
+" mapping tab to bnext
+nnoremap <Tab> :bnext<CR>
+nnoremap <S-Tab> :bprevious<CR>
