@@ -13,7 +13,7 @@ default_color white
 draw_shades yes
 
 # solarized
-color0 99cc99 
+color0 f99157 
 color1 66cccc
 color2 cccccc
 
