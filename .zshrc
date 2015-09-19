@@ -83,3 +83,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias pacman="sudo pacman"
+
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/base16-atelierforest.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL

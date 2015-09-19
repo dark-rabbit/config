@@ -45,7 +45,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 
 " Bar de statut stylée
-Plugin 'itchyny/lightline.vim'
+" Plugin 'itchyny/lightline.vim'
+Plugin 'bling/vim-airline'
 
 " Coder du HTM comme un gros bourrin
 " taper htm:5 en insertion puis ctrl+y puis ,
@@ -53,7 +54,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'mattn/emmet-vim'
 
 " HTML syntax
-Plugin 'othree/html.vim'
+Plugin 'othree/html5.vim'
 
 " JS Syntax
 Plugin 'pangloss/vim-javascript'
@@ -78,14 +79,19 @@ filetype plugin indent on
 " colors
 syntax enable
 
-" colorscheme Tomorrow-Night-Eighties
-colorscheme base16-eighties
+let base16colorspace=256
+colorscheme base16-atelierforest
+set background=dark
+highlight search ctermfg=black ctermbg=DarkMagenta
+highlight StatusLine ctermbg=Black ctermfg=DarkMagenta
+highlight WildMenu ctermbg=DarkMagenta ctermfg=Black
 
-" bar de statut light (pas de fonts speciales)
-let g:lightline = {
-\	'colorscheme': 'Tomorrow_Night_Bright',
-\}
+" bar de statut
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
 set noshowmode
+
 let g:used_javascript_libs = 'angularjs,jquery'
 
 " Syntastic config
@@ -108,7 +114,7 @@ set smartindent
 set autoindent
 
 " Search
-set hlsearch
+" set nohlsearch
 set ignorecase
 set smartcase
 
