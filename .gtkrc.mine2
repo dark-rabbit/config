@@ -1,4 +1,4 @@
 include '/usr/share/themes/Numix/gtk-2.0/gtkrc'
 
 gtk-icon-theme-name = "Numix-Circle"
-gtk-font-name = "DejaVu Sans 10"
+gtk-font-name = "Ubuntu 10"
