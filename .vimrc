@@ -73,6 +73,9 @@ Plugin 'moll/vim-node'
 " Colorschemes
 Plugin 'chriskempson/base16-vim'
 
+" Git
+Plugin 'tpope/vim-fugitive'
+
 call vundle#end()
 filetype plugin indent on
 
