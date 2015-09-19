@@ -117,7 +117,7 @@ set smartindent
 set autoindent
 
 " Search
-" set nohlsearch
+set hlsearch
 set ignorecase
 set smartcase
 
