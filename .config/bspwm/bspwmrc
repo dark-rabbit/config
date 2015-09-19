@@ -34,13 +34,13 @@ bspc rule -a eog floating=on
 bspc config focus_follows_pointer true
 
 # normal window	border
-bspc config normal_border_color "#515151"
+bspc config normal_border_color "#2c2421"
 
 # focused window border
-bspc config focused_border_color "#999999"
+bspc config focused_border_color "#6666ea"
 
 # active (focused on another screen)
-bspc config active_border_color "#cc99cc"
+bspc config active_border_color "#c33ff3"
 
 # presel
-bspc config presel_border_color "#99cc99"
+bspc config presel_border_color "#5ab738"
