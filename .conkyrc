@@ -13,9 +13,9 @@ default_color white
 draw_shades yes
 
 # solarized
-color0 f99157 
-color1 66cccc
-color2 cccccc
+color0 c33ff3 
+color1 6666ea
+color2 a8a19f
 
 # Desktop parameters
 own_window yes
