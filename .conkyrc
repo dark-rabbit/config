@@ -12,7 +12,7 @@ default_color white
 # default_shade_color black
 draw_shades yes
 
-# solarized
+# colors
 color0 c33ff3 
 color1 6666ea
 color2 a8a19f
