@@ -123,6 +123,11 @@ ctrl + shift + c
 # touchpad
 ctrl + shift + d
 	/home/lapin/Scripts/tools/touchpad_toggle.sh
+# lock screen
+ctrl + shift + l
+	sflock
+ctrl + alt + shift + l
+	sflock & systemctl suspend
 # firefox
 super + n
 	firefox
