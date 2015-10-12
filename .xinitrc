@@ -49,6 +49,9 @@ conky &
 # compositor
 compton --backend glx --vsync opengl &
 
+# java fix
+export _JAVA_AWT_WM_NONREPARENTING=1
+
 # bspwm
 sxhkd &
 exec bspwm
