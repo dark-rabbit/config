@@ -15,3 +15,5 @@ alias pacman='sudo pacman'
 alias rm='rm -iv'
 
 PS1='[\u@\h \W]\$ '
+
+export ANDROID_HOME=/opt/android-sdk

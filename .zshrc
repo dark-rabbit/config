@@ -83,7 +83,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias pacman="sudo pacman"
+alias rm='rm -iv'
 
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/base16-atelierforest.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
+export ANDROID_HOME=/opt/android-sdk
