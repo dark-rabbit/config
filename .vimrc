@@ -73,6 +73,9 @@ Plugin 'moll/vim-node'
 " Colorschemes
 Plugin 'chriskempson/base16-vim'
 
+" Ident lines
+Plugin 'Yggdroot/indentLine'
+
 " Git
 Plugin 'tpope/vim-fugitive'
 
@@ -115,6 +118,10 @@ set noexpandtab
 set smarttab
 set smartindent
 set autoindent
+
+" Indent Lines
+let g:indentLine_color_term=239
+let g:indentLIne_char='|'
 
 " Search
 set hlsearch
