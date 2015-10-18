@@ -98,7 +98,11 @@ let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 set noshowmode
 
+" js libs
 let g:used_javascript_libs = 'angularjs,jquery'
+
+" eclim
+let g:EclimCompletionMethod = 'omnifunc'
 
 " Syntastic config
 let g:syntastic_cpp_compiler = 'clang++'
