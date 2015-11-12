@@ -88,7 +88,6 @@ URxvt*mouseWheelScrollPage:				false
 URxvt*cursorUnderline:					true
 URxvt*cursorBlink:						true
 ! URxvt*pointerBlank:                   boolean
-! URxvt*.background:						[80]#000000
 ! URxvt*foreground:						white
 ! URxvt*color0:                         color
 ! URxvt*color1:                         color
@@ -121,7 +120,7 @@ URxvt*cursorBlink:						true
 ! URxvt*pointerColor2:                  color
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
-URxvt*font:								xft:Ubuntu Mono:size=12
+URxvt*font:								xft:Ubuntu Mono:size=11
 ! URxvt*boldFont:                       fontname
 ! URxvt*italicFont:                     fontname
 ! URxvt*boldItalicFont:                 fontname

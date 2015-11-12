@@ -70,6 +70,7 @@ Plugin 'Shutnik/jshint2.vim'
 " NodeJS
 Plugin 'moll/vim-node'
 
+
 " Colorschemes
 Plugin 'chriskempson/base16-vim'
 
@@ -101,7 +102,7 @@ set noshowmode
 " js libs
 let g:used_javascript_libs = 'angularjs,jquery'
 
-" eclim
+" eclim completion
 let g:EclimCompletionMethod = 'omnifunc'
 
 " Syntastic config
@@ -131,10 +132,6 @@ let g:indentLIne_char='|'
 set hlsearch
 set ignorecase
 set smartcase
-
-" Easymotion search
-" map / <Plug>(easymotion-sn)
-" omap / <Plug>(easymotion-tn)
 
 " Mouse
 set mouse=a
