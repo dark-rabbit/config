@@ -8,7 +8,8 @@
 complete -cf sudo
 
 alias ls='ls --color=auto'
-alias ll='ls -l'
+alias l='ls'
+alias ll='ls -la'
 alias la='ls -a'
 alias ..='cd ..'
 alias pacman='sudo pacman'
