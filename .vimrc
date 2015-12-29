@@ -70,12 +70,9 @@ Plugin 'Shutnik/jshint2.vim'
 " NodeJS
 Plugin 'moll/vim-node'
 
-
 " Colorschemes
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'chriskempson/base16-vim'
-
-" Ident lines
-Plugin 'Yggdroot/indentLine'
 
 " Git
 Plugin 'tpope/vim-fugitive'
@@ -85,11 +82,15 @@ filetype plugin indent on
 
 " colors
 syntax enable
-
-let base16colorspace=256
 colorscheme base16-atelierforest
+
 set background=dark
-highlight search ctermfg=black ctermbg=DarkMagenta
+
+highlight Search guibg=DarkMagenta guifg=DarkGrey
+highlight StatusLine guibg=DarkGrey guifg=DarkMagenta
+highlight WildMenu guibg=DarkMagenta guifg=DarkGrey
+
+highlight Search ctermfg=black ctermbg=DarkMagenta
 highlight StatusLine ctermbg=Black ctermfg=DarkMagenta
 highlight WildMenu ctermbg=DarkMagenta ctermfg=Black
 
@@ -101,13 +102,6 @@ set noshowmode
 
 " js libs
 let g:used_javascript_libs = 'angularjs,jquery'
-
-" eclim completion
-let g:EclimCompletionMethod = 'omnifunc'
-
-" Syntastic config
-let g:syntastic_cpp_compiler = 'clang++'
-let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 
 " Interface
 set wildchar=<Tab> wildmenu wildmode=full
@@ -123,10 +117,6 @@ set noexpandtab
 set smarttab
 set smartindent
 set autoindent
-
-" Indent Lines
-let g:indentLine_color_term=239
-let g:indentLIne_char='|'
 
 " Search
 set hlsearch
