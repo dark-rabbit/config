@@ -83,8 +83,10 @@ filetype plugin indent on
 " colors
 syntax enable
 colorscheme base16-atelierforest
+let base16colorspace=256
 
 set background=dark
+
 
 highlight Search guibg=DarkMagenta guifg=DarkGrey
 highlight StatusLine guibg=DarkGrey guifg=DarkMagenta
