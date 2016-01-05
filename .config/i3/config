@@ -11,7 +11,7 @@
 
 
 # autostart
-exec_always compton -CGf
+exec compton -CGf
 exec feh --bg-scale /mnt/Data/Numix/numix-wallpaper-gotf-slideshow/share/backgrounds/Numix-GotF-Night-16x9.png
 
 set $mod Mod4
