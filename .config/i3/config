@@ -40,7 +40,7 @@ bindsym $mod+n exec firefox
 # touchpad, sound, brightness
 #
 # touchpad toggle
-bindsym $mod+Ctrl+d exec synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')
+bindsym $mod+Ctrl+d exec ~/.config/i3/touchpad.sh
 # sound
 bindsym $mod+Ctrl+w exec pactl set-sink-volume 1 -10%
 bindsym $mod+Ctrl+x exec pactl set-sink-volume 1 +10%
