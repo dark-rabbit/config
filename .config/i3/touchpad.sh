@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#
+# Touchpad Toggle and Config Script
+#
+
 # touchpad future state
 touchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')
 
