@@ -62,7 +62,7 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 
 " TernJS (better autocompletion and refactoring)
 " Need NodeJS + npm, npm install in .vim/bundle/tern_for_vim
-Plugin 'marijnh/tern_for_vim'
+" Plugin 'marijnh/tern_for_vim'
 
 " JS hint
 Plugin 'Shutnik/jshint2.vim'
