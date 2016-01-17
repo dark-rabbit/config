@@ -11,7 +11,8 @@
 
 
 # autostart
-exec compton -CGf -D=300
+exec numlockx
+exec compton -CGf -D=500
 exec feh --bg-scale /mnt/Data/Numix/numix-wallpaper-gotf-slideshow/share/backgrounds/Numix-GotF-Night-16x9.png
 exec xrdb ~/.Xresources
 exec xfce4-power-manager
