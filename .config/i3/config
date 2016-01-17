@@ -12,7 +12,8 @@
 
 # autostart
 exec numlockx
-exec compton -CGf -D=500
+exec compton -CGf
+exec export QT_STYLE_OVERRIDE=GTK+
 exec feh --bg-scale /mnt/Data/Numix/numix-wallpaper-gotf-slideshow/share/backgrounds/Numix-GotF-Night-16x9.png
 exec xrdb ~/.Xresources
 exec xfce4-power-manager
@@ -207,23 +208,22 @@ set $base0F #c33ff3
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-
 	tray_output eDP1
 	status_command i3status
 	font pango:Ubuntu Mono 8
 	colors {
-		separator $base02
-		background $base01
-		statusline $base06
-		focused_workspace $base00 $base01 $base0E
-		active_workspace $base00 $base01 $base0F
-		inactive_workspace $base00 $base01 $base05
-		urgent_workspace $base00 $base01 $base08
+		separator $base00
+		background $base00
+		statusline $base07
+		focused_workspace $base0E $base01 $base0D
+		active_workspace $base00 $base00 $base0F
+		inactive_workspace $base00 $base00 $base07
+		urgent_workspace $base00 $base00 $base08
 	}
 }
 
-client.focused $base00 $base01 $base0E $base0B
-client.focused_inactive $base00 $base01 $base0F $base0B
-client.unfocused $base00 $base01 $base05 $base0B
-client.urgent $base00 $base01 $base08 $base0B
+client.focused $base01 $base01 $base0D $base0B
+client.focused_inactive $base00 $base00 $base0F $base0B
+client.unfocused $base00 $base00 $base05 $base0B
+client.urgent $base00 $base00 $base08 $base0B
 
