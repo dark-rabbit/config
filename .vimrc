@@ -19,7 +19,6 @@ Plugin 'scrooloose/syntastic'
 " Gestion des parentheses, crochets ...
 " cs(] pour changer ( en [
 " ysiw( pour ajouter )
-" ...
 Plugin 'tpope/vim-surround'
 
 " Auto Bracket
@@ -44,8 +43,11 @@ Plugin 'scrooloose/nerdtree'
 " File fuzz
 Plugin 'kien/ctrlp.vim'
 
+" Ack (better grep)
+" Require native program ack
+Plugin 'mileszs/ack.vim'
+
 " Bar de statut stylée
-" Plugin 'itchyny/lightline.vim'
 Plugin 'bling/vim-airline'
 
 " Coder du HTM comme un gros bourrin
@@ -62,7 +64,7 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 
 " TernJS (better autocompletion and refactoring)
 " Need NodeJS + npm, npm install in .vim/bundle/tern_for_vim
-" Plugin 'marijnh/tern_for_vim'
+Plugin 'marijnh/tern_for_vim'
 
 " JS hint
 Plugin 'Shutnik/jshint2.vim'
@@ -71,7 +73,6 @@ Plugin 'Shutnik/jshint2.vim'
 Plugin 'moll/vim-node'
 
 " Colorschemes
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'chriskempson/base16-vim'
 
 " Git
@@ -86,7 +87,6 @@ colorscheme base16-atelierforest
 let base16colorspace=256
 
 set background=dark
-
 
 highlight Search guibg=DarkMagenta guifg=DarkGrey
 highlight StatusLine guibg=DarkGrey guifg=DarkMagenta
@@ -139,7 +139,7 @@ set noeb vb t_vb=
 set guicursor+=a:blinkon0
 
 " font
-set guifont=Ubuntu\ Mono\ 12
+set guifont=Ubuntu\ Mono\ 11
 
 " mapping tab to bnext
 nnoremap <Tab> :bnext<CR>

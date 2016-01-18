@@ -2,10 +2,19 @@
 *
 # But not
 !.gitignore
-!.Xresources
-!.gvimrc
 !.vimrc
+!.gvimrc
+!.bashrc
+!.bash_profile
+!.zshrc
+!.zlogin
+!.config/base16-shell/base16-atelierforest.dark.sh
+!.xinit
+!.Xresources
 !.config/i3/config
 !.config/i3/touchpad.sh
 !.config/i3status/config
+!.gtkrc-2.0
+!.config/gtk-3.0/settings.ini
+!.config/Trolltech.conf
 # !*/
