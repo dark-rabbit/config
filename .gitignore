@@ -12,7 +12,8 @@
 !.xinit
 !.Xresources
 !.config/i3/config
-!.config/i3/touchpad.sh
+!.config/i3/touchpad_init.sh
+!.config/i3/touchpad_toggle.sh
 !.config/i3status/config
 !.gtkrc-2.0
 !.config/gtk-3.0/settings.ini

@@ -12,6 +12,7 @@
 
 # autostart
 exec numlockx
+exec ~/.config/i3/touchpad_init.sh
 exec xrdb ~/.Xresources
 exec compton -CGf
 exec export SWT_GTK3=0
@@ -49,7 +50,7 @@ bindsym $mod+n exec firefox
 #
 
 # touchpad toggle
-bindsym $mod+Ctrl+d exec ~/.config/i3/touchpad.sh
+bindsym $mod+Ctrl+d exec ~/.config/i3/touchpad_toggle.sh
 
 # sound
 bindsym $mod+Ctrl+w exec pactl set-sink-volume 1 -10%
