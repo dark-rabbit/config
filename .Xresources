@@ -185,10 +185,10 @@ URxvt*iso14755:							false
 ! URxvt*url-launcher:                   string
 
 ! Rofi conf
-rofi.background: base01
+rofi.background: base00
 rofi.foreground: base06
 rofi.bordercolor: base0E
-rofi.highlightbg: base00
+rofi.highlightbg: base01
 rofi.highlightfg: base0D
 rofi.opacity: 90%
 rofi.font: ubuntu mono 14
