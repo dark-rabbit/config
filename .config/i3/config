@@ -225,7 +225,7 @@ bar {
 		}
 }
 
-client.focused $base01 $base01 $base0D $base0B
-client.focused_inactive $base01 $base00 $base0F $base0B
-client.unfocused $base01 $base00 $base05 $base0B
-client.urgent $base01 $base00 $base08 $base0B
+client.focused $base01 $base01 $base0D $base0E
+client.focused_inactive $base01 $base00 $base0F $base0E
+client.unfocused $base01 $base00 $base05 $base0E
+client.urgent $base01 $base00 $base08 $base0E
