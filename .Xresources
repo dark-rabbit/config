@@ -121,9 +121,9 @@ URxvt*cursorBlink:						true
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
 URxvt*font:								xft:Ubuntu Mono:size=11
-! URxvt*boldFont:                       fontname
-! URxvt*italicFont:                     fontname
-! URxvt*boldItalicFont:                 fontname
+URxvt*boldFont:							xft:Ubuntu Mono:size=11
+! URxvt*italicFont:						fontname
+! URxvt*boldItalicFont:					fontname
 ! URxvt*intensityStyles:                boolean
 ! URxvt*inputMethod:                    name
 ! URxvt*preeditType:                    style
