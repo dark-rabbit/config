@@ -5,7 +5,7 @@ ZSH=/usr/share/oh-my-zsh/
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="ys"
+ZSH_THEME="kiss"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -43,7 +43,7 @@ DISABLE_AUTO_UPDATE="true"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=$HOME/.zsh_custom
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -85,9 +85,6 @@ alias pacman='sudo pacman'
 alias rm='rm -iv'
 alias cp='cp -v'
 alias mv='mv -v'
-
-BASE16_SHELL="$HOME/.config/base16-shell/base16-atelierforest.dark.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
 ZSH_CACHE_DIR=$HOME/.oh-my-zsh-cache
 if [[ ! -d $ZSH_CACHE_DIR ]]; then

@@ -48,32 +48,11 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'mileszs/ack.vim'
 
 " Bar de statut stylée
-Plugin 'bling/vim-airline'
-
-" Coder du HTM comme un gros bourrin
-" taper htm:5 en insertion puis ctrl+y puis ,
-" ctrl+y puis , pour la plupart des fonctionnalités
-Plugin 'mattn/emmet-vim'
-
-" HTML syntax
-Plugin 'othree/html5.vim'
-
-" JS Syntax
-Plugin 'pangloss/vim-javascript'
-Plugin 'othree/javascript-libraries-syntax.vim'
-
-" TernJS (better autocompletion and refactoring)
-" Need NodeJS + npm, npm install in .vim/bundle/tern_for_vim
-Plugin 'marijnh/tern_for_vim'
-
-" JS hint
-Plugin 'Shutnik/jshint2.vim'
-
-" NodeJS
-Plugin 'moll/vim-node'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " Colorschemes
-Plugin 'chriskempson/base16-vim'
+Plugin 'altercation/vim-colors-solarized'
 
 " Git
 Plugin 'tpope/vim-fugitive'
@@ -83,27 +62,23 @@ filetype plugin indent on
 
 " colors
 syntax enable
-colorscheme base16-atelierforest
-let base16colorspace=256
+set background=light
+colorscheme solarized
 
-set background=dark
 
-highlight Search guibg=DarkMagenta guifg=DarkGrey
-highlight StatusLine guibg=DarkGrey guifg=DarkMagenta
-highlight WildMenu guibg=DarkMagenta guifg=DarkGrey
-
-highlight Search ctermfg=black ctermbg=DarkMagenta
-highlight StatusLine ctermbg=Black ctermfg=DarkMagenta
-highlight WildMenu ctermbg=DarkMagenta ctermfg=Black
+" highlight Search guibg=DarkMagenta guifg=DarkGrey
+" highlight StatusLine guibg=DarkGrey guifg=DarkMagenta
+" highlight WildMenu guibg=DarkMagenta guifg=DarkGrey
+"
+" highlight Search ctermfg=black ctermbg=DarkMagenta
+" highlight StatusLine ctermbg=Black ctermfg=DarkMagenta
+" highlight WildMenu ctermbg=DarkMagenta ctermfg=Black
 
 " bar de statut
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 set noshowmode
-
-" js libs
-let g:used_javascript_libs = 'angularjs,jquery'
 
 " Interface
 set wildchar=<Tab> wildmenu wildmode=full
@@ -112,9 +87,9 @@ set number
 set ruler
 
 " Indentation
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set noexpandtab
 set smarttab
 set smartindent
@@ -139,7 +114,7 @@ set noeb vb t_vb=
 set guicursor+=a:blinkon0
 
 " font
-set guifont=Ubuntu\ Mono\ 11
+set guifont=Source\ Code\ Pro\ 9
 
 " mapping tab to bnext
 nnoremap <Tab> :bnext<CR>
