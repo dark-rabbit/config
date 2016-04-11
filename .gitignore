@@ -4,12 +4,10 @@
 !.gitignore
 !.vimrc
 !.gvimrc
+!.vim/colors/base16.vim
 !.bashrc
 !.bash_profile
-!.zshrc
-!.zlogin
-!.config/base16-shell/base16-atelierforest.dark.sh
-!.xinit
+!.config/base16.sh
 !.Xresources
 !.config/i3/config
 !.config/i3/touchpad_init.sh

@@ -51,9 +51,6 @@ Plugin 'mileszs/ack.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-" Colorschemes
-Plugin 'altercation/vim-colors-solarized'
-
 " Git
 Plugin 'tpope/vim-fugitive'
 
@@ -61,18 +58,19 @@ call vundle#end()
 filetype plugin indent on
 
 " colors
-syntax enable
-set background=light
-colorscheme solarized
+syntax on
+set background=dark
+set t_Co=256
+let base16colorspace=256
+colorscheme base16
 
+highlight Search guibg=DarkMagenta guifg=DarkGrey
+highlight StatusLine guibg=DarkGrey guifg=DarkMagenta
+highlight WildMenu guibg=DarkMagenta guifg=DarkGrey
 
-" highlight Search guibg=DarkMagenta guifg=DarkGrey
-" highlight StatusLine guibg=DarkGrey guifg=DarkMagenta
-" highlight WildMenu guibg=DarkMagenta guifg=DarkGrey
-"
-" highlight Search ctermfg=black ctermbg=DarkMagenta
-" highlight StatusLine ctermbg=Black ctermfg=DarkMagenta
-" highlight WildMenu ctermbg=DarkMagenta ctermfg=Black
+highlight Search ctermfg=black ctermbg=DarkMagenta
+highlight StatusLine ctermbg=Black ctermfg=DarkMagenta
+highlight WildMenu ctermbg=DarkMagenta ctermfg=Black
 
 " bar de statut
 let g:airline#extensions#tabline#enabled = 1

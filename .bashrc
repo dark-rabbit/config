@@ -6,15 +6,19 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-alias l='ls -lA'
-alias ll='ls -l'
+alias l='ls -lhA'
+alias ll='ls -lh'
 alias la='ls -A'
 alias pacman='sudo pacman'
 alias rm='rm -iv'
 alias mv='mv -v'
 alias cp='cp -v'
+alias c='clear'
 
-PS1='[\u@\h \W]\$ '
+set -o vi
 
-BASE16_SHELL="$HOME/.config/base16-shell/base16-atelierforest.dark.sh"
-[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+blue="40/7e/e7"
+
+export PS1='(\u@\h \W)> '
+
+[[ -s $HOME/.config/base16-shell.sh ]] && source $HOME/.config/base16-shell.sh
