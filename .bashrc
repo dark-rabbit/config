@@ -17,8 +17,6 @@ alias c='clear'
 
 set -o vi
 
-blue="40/7e/e7"
-
 export PS1='(\u@\h \W)> '
 
-[[ -s $HOME/.config/base16-shell.sh ]] && source $HOME/.config/base16-shell.sh
+[[ -s $HOME/.config/base16.sh ]] && source $HOME/.config/base16.sh

@@ -30,6 +30,7 @@ let s:gui0E = "6666ea"
 let s:gui0F = "c33ff3"
 
 " Terminal color definitions
+" let s:cterm00 = "00"
 let s:cterm00 = ""
 let s:cterm03 = "08"
 let s:cterm05 = "07"
