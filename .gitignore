@@ -5,6 +5,7 @@
 !.vimrc
 !.gvimrc
 !.vim/colors/base16.vim
+!.vim/airline-colors/base16-airline.vim
 !.bashrc
 !.bash_profile
 !.config/base16.sh
