@@ -14,7 +14,7 @@
 exec numlockx
 exec ~/.config/i3/touchpad_init.sh
 exec xrdb ~/.Xresources
-exec compton -f --shadow-exclude 1
+exec compton --fading --shadow-exclude 1
 exec export QT_STYLE_OVERRIDE=GTK+
 exec feh --bg-scale /mnt/Data/Pictures/wallpapers/berlin.jpg
 exec xfce4-power-manager
@@ -221,9 +221,9 @@ set $base0E #6666ea
 set $base0F #c33ff3
 
 client.focused $base01 $base01 $base0D $base0E
-client.focused_inactive $base00 $base00 $base05 $base00
-client.unfocused $base00 $base00 $base03 $base00
-client.urgent $base00 $base00 $base08 $base00
+client.focused_inactive $base01 $base00 $base06 $base00
+client.unfocused $base01 $base00 $base05 $base00
+client.urgent $base01 $base00 $base08 $base00
 
 ## remember to add the rest of your configuration
 
@@ -239,7 +239,7 @@ bar {
 				background $base01
 				statusline $base05
 				focused_workspace $base0E $base01 $base0D
-				active_workspace $base01 $base01 $base07
+				active_workspace $base01 $base01 $base06
 				inactive_workspace $base01 $base01 $base05
 				urgent_workspace $base01 $base01 $base08
 		}
