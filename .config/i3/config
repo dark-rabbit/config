@@ -16,7 +16,7 @@ exec ~/.config/i3/touchpad_init.sh
 exec xrdb ~/.Xresources
 exec compton --fading --shadow-exclude 1
 exec export QT_STYLE_OVERRIDE=GTK+
-exec feh --bg-scale /mnt/Data/Pictures/wallpapers/berlin.jpg
+exec feh --bg-scale /mnt/Data/Pictures/wallpapers/batman_berlin.jpg
 exec xfce4-power-manager
 exec pa-applet
 exec nm-applet

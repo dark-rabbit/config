@@ -54,6 +54,9 @@ Plugin 'vim-airline/vim-airline-themes'
 " Git
 Plugin 'tpope/vim-fugitive'
 
+" Emmet
+Plugin 'mattn/emmet-vim'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -98,6 +101,10 @@ set hlsearch
 set ignorecase
 set smartcase
 
+" CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP .'
+
 " Mouse
 set mouse=a
 
@@ -117,3 +124,6 @@ set guifont=Source\ Code\ Pro\ 9
 " mapping tab to bnext
 nnoremap <Tab> :bnext<CR>
 nnoremap <S-Tab> :bprevious<CR>
+
+" syntastic
+let g:syntastic_javascript_checkers = ['eslint']

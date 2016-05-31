@@ -17,6 +17,7 @@ alias pacman='sudo pacman'
 # vi mode whith ctrl-l
 set -o vi
 bind -m vi-insert "\C-l":clear-screen
+export visual="vim"
 
 # base16 theme
 [[ -s $HOME/.config/base16.sh ]] && source $HOME/.config/base16.sh
@@ -43,5 +44,5 @@ initializeANSI () {
 
 initializeANSI
 
-export PS1="$boldon$yellowf($cyanf\u$purplef@$greenf\h $bluef\W$yellowf)$redf> $reset"
+export PS1="$boldon$redf>> $reset"
 
