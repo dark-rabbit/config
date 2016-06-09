@@ -19,4 +19,5 @@
 !eclipse-launcher.sh
 !.config/gtk-3.0/settings.ini
 !.config/Trolltech.conf
+!.atom/keymap.cson
 # !*/

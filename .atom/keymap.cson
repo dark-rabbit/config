@@ -1,0 +1,6 @@
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  ':': 'command-palette:toggle'
+  '/': 'find-and-replace:show'
+  'n': 'find-and-replace:find-next'
+  'N': 'find-and-replace:find-previous'
+  '\\': 'find-and-replace:find-next-selected'
