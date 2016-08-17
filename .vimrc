@@ -120,6 +120,10 @@ set ignorecase
 set smartcase
 
 
+" XTERM bug fix
+set t_RV=
+
+
 " Colors
 
 syntax on

@@ -45,5 +45,6 @@ initializeANSI () {
 initializeANSI
 
 export PS1="$boldon$redf > $reset"
+
 export GOPATH=~/work
 
