@@ -110,6 +110,7 @@ set ruler
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
+let g:airline_theme='base16'
 set noshowmode
 
 
@@ -131,14 +132,6 @@ set background=dark
 set t_Co=256
 let base16colorspace=256
 colorscheme base16
-
-highlight Search guibg=DarkMagenta guifg=DarkGrey
-highlight StatusLine guibg=DarkGrey guifg=DarkMagenta
-highlight WildMenu guibg=DarkMagenta guifg=DarkGrey
-
-highlight Search ctermfg=black ctermbg=DarkMagenta
-highlight StatusLine ctermbg=Black ctermfg=DarkMagenta
-highlight WildMenu ctermbg=DarkMagenta ctermfg=Black
 
 
 " Font
