@@ -10,10 +10,10 @@ xterm*scaleHeight: 1.01
 ! ROFI
 rofi.font: ubuntu mono 14
 rofi.color-enabled: true
-rofi.color-window: #1b1918, #2c2421, #2c2421
-rofi.color-normal: #1b1918, #a8a19f, #2c2421, #6666ea, #1b1918
-rofi.color-active: #1b1918, #7b9726, #2c2421, #7b9726, #1b1918
-rofi.color-urgent: #1b1918, #f22c40, #2c2421, #f22c40, #1b1918
+rofi.color-window: #272822, #383830, #272822
+rofi.color-normal: #272822, #a59f85, #272822, #383830, #a1efe4
+rofi.color-active: #272822, #a6e22e, #272822, #383830, #a1efe4
+rofi.color-urgent: #272822, #f92672, #272822, #383830, #a1efe4
 
 
 ! Base16 Monokai
@@ -66,4 +66,3 @@ rofi.color-urgent: #1b1918, #f22c40, #2c2421, #f22c40, #1b1918
 *.color19:      base02
 *.color20:      base04
 *.color21:      base06
-
