@@ -163,7 +163,18 @@ let g:ctrlp_cmd = 'CtrlP .'
 let g:ctrlp_custom_ignore = 'node_modules'
 
 
-" Activate eslint
+" Activate autocompletion
+let g:neocomplete#enable_at_startup = 1
+
+
+" Activate linters
 
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
+
+
+" Golang extra conf
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_operators = 1
 
