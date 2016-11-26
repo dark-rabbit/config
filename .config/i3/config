@@ -42,8 +42,7 @@ font pango:Ubuntu Mono 8
 # launchers
 #
 
-bindsym $mod+n exec firefox
-bindsym $mod+Shift+n exec firefox --private-window
+bindsym $mod+n exec chromium
 
 #
 # touchpad, sound, brightness
